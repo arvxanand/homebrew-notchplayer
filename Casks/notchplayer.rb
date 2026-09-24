@@ -29,6 +29,9 @@ cask "notchplayer" do
   uninstall quit: "io.github.arvxanand.notchplayer"
 
   zap trash: [
+    "~/Library/Caches/io.github.arvxanand.notchplayer",
+    "~/Library/Caches/NotchPlayer",
+    "~/Library/HTTPStorages/io.github.arvxanand.notchplayer",
     "~/Library/Logs/NotchPlayer.log",
     "~/Library/Preferences/io.github.arvxanand.notchplayer.plist",
   ]
