@@ -1,6 +1,6 @@
 cask "notchplayer" do
-  version "0.3"
-  sha256 "22a6b6e4db02c99007aa8c3d3c6ceb08d1c6655ed858f232e88d62a4ffb9fbbd"
+  version "0.4"
+  sha256 "dd61da0a0b4a46b72ef9743d55c8f0148e2fd7fddbb83529196e9268e3e90a6a"
 
   url "https://github.com/arvxanand/NotchPlayer/releases/download/v#{version}/NotchPlayer.dmg"
   name "NotchPlayer"
