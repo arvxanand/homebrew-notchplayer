@@ -1,10 +1,10 @@
 cask "notchplayer" do
-  version "0.4.1"
-  sha256 "88ca4b3164b1c0432c6d1496d55ca9af22db85a074a9622a01c4d6edfa790d3d"
+  version "0.5"
+  sha256 "16fa8884470ef10471564dda0d18661f3284538799e524876633260ff31a2fde"
 
   url "https://github.com/arvxanand/NotchPlayer/releases/download/v#{version}/NotchPlayer.dmg"
   name "NotchPlayer"
-  desc "Spotify now-playing in the MacBook notch"
+  desc "Spotify and Apple Music now-playing in the MacBook notch"
   homepage "https://github.com/arvxanand/NotchPlayer"
 
   livecheck do
