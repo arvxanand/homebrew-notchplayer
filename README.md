@@ -1,18 +1,19 @@
 # homebrew-notchplayer
 
 The Homebrew tap for [NotchPlayer](https://github.com/arvxanand/NotchPlayer):
-Spotify now-playing in the MacBook notch, with the album cover and a live
-waveform beside the camera, and play/pause/skip when you hover it.
+Spotify and Apple Music now-playing in the MacBook notch, with the album cover
+and a live waveform beside the camera, and play/pause/skip when you hover it.
 
-Needs a MacBook with a notch (Apple Silicon), macOS 15 or later, and the
-Spotify desktop app, signed in.
+Needs a MacBook (Apple Silicon) with or without a notch, macOS 15 or later,
+and the Spotify desktop app (signed in) or the Music app. With both open, it
+shows whichever is playing.
 
 ```bash
 brew install --cask arvxanand/notchplayer/notchplayer
 ```
 
 Then open NotchPlayer from Applications and click **Allow** when it asks for
-Automation (to read and control Spotify) and Audio Recording (for the
+Automation (to read and control Spotify or Music) and Audio Recording (for the
 waveform). Turn on **Launch at Login** from its menu bar item → the gear.
 
 NotchPlayer isn't notarised (there's no paid Apple Developer account behind
